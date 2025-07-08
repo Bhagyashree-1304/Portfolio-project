@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  background: #ded4c0;
+  color: #000000;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background: #000003;
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#hero {
+  background: #382b4a;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section {
+  margin: 30px 0;
+}
+
+.skills-list span {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #200831;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
